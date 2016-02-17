@@ -46,13 +46,13 @@ public class RecursionPanel extends JPanel
 	}
 	private void setupLayout()
 	{
-		baseLayout.putConstraint(SpringLayout.NORTH, resultsArea, 144, SpringLayout.SOUTH, inputField);
-		baseLayout.putConstraint(SpringLayout.SOUTH, resultsArea, -31, SpringLayout.SOUTH, this);setBackground(Color.BLUE);baseLayout.putConstraint(SpringLayout.EAST, inputField, 126, SpringLayout.WEST, this);
-		baseLayout.putConstraint(SpringLayout.WEST, resultsArea, 84, SpringLayout.WEST, this);
-		baseLayout.putConstraint(SpringLayout.EAST, resultsArea, -112, SpringLayout.EAST, this);baseLayout.putConstraint(SpringLayout.NORTH, inputField, 10, SpringLayout.NORTH, this);
-		baseLayout.putConstraint(SpringLayout.WEST, inputField, 22, SpringLayout.WEST, this);baseLayout.putConstraint(SpringLayout.NORTH, factorialButton, 6, SpringLayout.SOUTH, fibonacciButton);
-		baseLayout.putConstraint(SpringLayout.WEST, factorialButton, 0, SpringLayout.WEST, fibonacciButton);baseLayout.putConstraint(SpringLayout.NORTH, fibonacciButton, 0, SpringLayout.NORTH, this);
-		baseLayout.putConstraint(SpringLayout.EAST, fibonacciButton, 0, SpringLayout.EAST, this);
+		
+		
+		
+		
+		baseLayout.putConstraint(SpringLayout.WEST, resultsArea, 84, SpringLayout.WEST, this);baseLayout.putConstraint(SpringLayout.EAST, resultsArea, -112, SpringLayout.EAST, this);baseLayout.putConstraint(SpringLayout.NORTH, inputField, 10, SpringLayout.NORTH, this);baseLayout.putConstraint(SpringLayout.WEST, factorialButton, 0, SpringLayout.WEST, fibonacciButton);baseLayout.putConstraint(SpringLayout.WEST, inputField, 22, SpringLayout.WEST, this);baseLayout.putConstraint(SpringLayout.NORTH, factorialButton, 6, SpringLayout.SOUTH, fibonacciButton);baseLayout.putConstraint(SpringLayout.NORTH, fibonacciButton, 0, SpringLayout.NORTH, this);baseLayout.putConstraint(SpringLayout.NORTH, resultsArea, 144, SpringLayout.SOUTH, inputField);baseLayout.putConstraint(SpringLayout.EAST, fibonacciButton, 0, SpringLayout.EAST, this);baseLayout.putConstraint(SpringLayout.SOUTH, resultsArea, -31, SpringLayout.SOUTH, this);setBackground(Color.BLUE);baseLayout.putConstraint(SpringLayout.EAST, inputField, 126, SpringLayout.WEST, this);
+		
+		
 	}
 	private void setupListeners()
 	{
